@@ -1,0 +1,7 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  background-image: url('./jens-homepage.jpeg');
+  background-size: cover;
+  height: 100vh;
+}
