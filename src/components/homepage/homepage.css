@@ -1,7 +1,50 @@
 .homepage {
   display: flex;
   flex-direction: column;
-  background-image: url('./jens-homepage.jpeg');
-  background-size: cover;
+  background: url('./personalbackground.jpg') center no-repeat ;
   height: 100vh;
+}
+
+.title {
+  width: ;
+  font-family: 'Ruthie', cursive;
+  font-size: 2em;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter;
+  display: inline-block;
+  position: relative;
+  animation-duration: 10s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+
+
+.title::after {
+  content: "|";
+  position: relative;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+
+
+@keyframes typewriter {
+  0%, 100% {
+    width: 0;
+  }
+  20%, 80% {
+    width: 10.2em;
+  }
+}
+
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
