@@ -1,11 +1,12 @@
 import React from 'react';
-import './homepage.css'
+import './Homepage.css';
 
 const Homepage = () => {
 
     return (
+
       <div className="homepage">
-        <h1><span className="title"> Jenessy </span> </h1>
+        <h1><div className="title"> Jenessy </div></h1>
       </div>
     )
 
