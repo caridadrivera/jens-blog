@@ -2,6 +2,9 @@ import React from 'react';
 import './Navbar.css';
 
 class Navbar extends React.Component {
+  //in articles, have list for health,
+  //a post belongs to a user
+  // post has a title, image and content
 
   render() {
     return (

@@ -13,3 +13,6 @@ function App() {
 }
 
 export default App;
+
+//set up the user in the rails backend
+//the new post route is only available to the one signed up user
