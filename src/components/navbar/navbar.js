@@ -11,7 +11,7 @@ class Navbar extends React.Component {
       <div className="nav-container">
         <a href="#">HOME</a>
         <a href="#">ARTICLES</a>
-        <a href="#">ABOUT</a>
+        <a href="#about">ABOUT</a>
         <a href="#">CONTACT</a>
      </div>
 
