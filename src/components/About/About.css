@@ -1,11 +1,19 @@
-.about-me  {
+.about  {
   height: 100vh;
-  color: #86A187;
+  /* color: #86A187; */
   text-decoration: none;
   font: 20px Raleway;
+
 }
 
-section {
-    padding: 2em;
-    border: dotted;
+section  {
+    /* padding: 2em; */
+margin-top: -1.8px;
+
+}
+
+.front-page {
+  height: 100vh;
+  width: 100%;
+  padding-bottom: 6rem;
 }

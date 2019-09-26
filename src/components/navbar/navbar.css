@@ -4,9 +4,11 @@
   /* margin: 0 auto; */
 	 padding: 2em 1em;
 	text-align: center;
+  width: 100%;
 }
 
 .nav-container a {
+
     color: #86A187;
     text-decoration: none;
     font: 20px Raleway;
